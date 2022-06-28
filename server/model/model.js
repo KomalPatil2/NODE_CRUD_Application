@@ -14,6 +14,6 @@ var schema=new mongoose.Schema({
     status:String
 })
 
-const Studentdb=mongoose.model('userdb',schema);
+const Studentdb=mongoose.model('Studentdb',schema);
 
-module.exports=Userdb;
+module.exports=Studentdb;
